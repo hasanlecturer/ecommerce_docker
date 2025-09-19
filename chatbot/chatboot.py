@@ -12,7 +12,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Make sure LiteLLM sees the key
-os.environ["ABC"] = GROQ_API_KEY
+os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 
 def clean_think_tags(text):
