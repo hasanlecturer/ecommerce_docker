@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore env files
+.env
+.env.*
+
+# Ignore virtualenvs
+venv/
+env/
+.venv/
+
+# Ignore Docker files (optional, if you don't want to track them)
+# Dockerfile
+# docker-compose.yml
+
+# Ignore PyCharm, VSCode, and other IDE config files
+.vscode/
+.idea/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore node_modules (if you use npm/yarn for frontend)
+node_modules/
+
+# Ignore coverage files
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
