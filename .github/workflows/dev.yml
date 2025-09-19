@@ -13,6 +13,8 @@ jobs:
       DJANGO_SETTINGS_MODULE: core.settings
       # The correct variable name for your Django project.
       DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY || 'dummy-secret-key-for-testing' }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      MODEL: ${{ secrets.MODEL }}
 
     steps:
       - name: Checkout code
