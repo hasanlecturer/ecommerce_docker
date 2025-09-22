@@ -46,4 +46,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASS }}
 
       - name: Push Docker image
-        run: docker push hasan082/inventory-app:latest
+        run: docker push lecturerhasan/ecommerce:latest
